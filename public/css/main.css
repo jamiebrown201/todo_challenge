@@ -1,0 +1,42 @@
+#task {
+  background-color: #F3F4F5;
+  border-radius: 8px;
+  padding: 0px 10px 0px 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#count {
+  font-size: 40px;
+}
+
+#title {
+  font-size: 9.2vw;
+  text-align: center;
+  text-shadow: 2px 2px 5px #888888;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  /*font-size: 2.2vw;*/
+  font-size: 15px
+}
+
+#delete {
+  float: right;
+}
+
+#taskCount {
+  position:fixed; bottom:2%; right:2%;
+  font-size: 50px;
+}
+
+.checkbox {
+  padding: 0 0 0 0;
+}
+
+
+#left {
+ font-size: 20px
+}

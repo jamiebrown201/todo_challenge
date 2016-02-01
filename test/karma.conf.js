@@ -1,5 +1,3 @@
-// Karma configuration
-// Generated on Thu Nov 27 2014 10:43:21 GMT+0000 (GMT)
 
 module.exports = function(config) {
   config.set({
@@ -19,7 +17,7 @@ module.exports = function(config) {
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-resource/angular-resource.js',
       'bower_components/angular-mocks/angular-mocks.js',
-      'js/**/*.js',
+      'public/js/**/*.js',
       'test/**/*.spec.js'
     ],
 
@@ -36,7 +34,7 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress'],
+    reporters: ['spec'],
 
 
     // web server port
